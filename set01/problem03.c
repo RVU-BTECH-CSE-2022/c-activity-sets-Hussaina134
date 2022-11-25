@@ -11,7 +11,7 @@ int input()
 {
   int a, b;
   printf("Enter two numbers:\n");
-  scanf("%d,%d", &a,&b);
+  scanf("%d%d", &a,&b);
   add(a,b);
 }
 int add(int a,int b)
